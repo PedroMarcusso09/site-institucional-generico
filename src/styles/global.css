@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --brand-1: #4C6EF5;
+    --brand-2: #364FC7;
+    --grey-1: #191C1F;
+    --grey-2: #212529;
+    --grey-3: #343A40;
+    --grey-4: #ADB5BD;
+    --grey-5: #CED4DA;
+    --grey-6: #EDF2FF;
+
+    --font-1-600: 600 56px/72.8px 'Inter', sans-serif;
+    --font-2-600: 600 40px/64px 'Inter', sans-serif;
+    --font-3-600: 600 32px/44.8px 'Inter', sans-serif;
+    --font-4-600: 600 24px/44px 'Inter', sans-serif;
+    --font-4-500: 500 24px/42px 'Inter', sans-serif;
+    --font-5-400: 400 20px/30px 'Inter', sans-serif;
+    --font-5-600: 600 20px/24px 'Inter', sans-serif;
+    --font-6-400: 400 18px/27.008px 'Inter', sans-serif;
+    --font-6-600: 600 14px/24px 'Inter', sans-serif;
+    --font-7-400: 400 16px/24px 'Inter', sans-serif;
+
+}
