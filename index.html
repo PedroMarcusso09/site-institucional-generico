@@ -15,40 +15,40 @@
         <img src="src/assets/logo.svg" alt="logo" class="header__logo">
         <button id="header__button" class="header__button">Entrar para a próxima turma</button>
     </header>
-    <main class="container">
+    <main class="main-container">
         <div class="intro">
-            <h1>Desenvolvendo <span class="highlight">suas</span> próximas habilidades</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos autem fuga accusantium sunt ratione pariatur eius laborum exercitationem accusamus illum laudantium, similique dolor, suscipit iste! Mollitia iure temporibus nam eligendi!</p>
+            <h1 class="intro__title">Desenvolvendo <span class="intro__title-highlight">suas</span> próximas habilidades</h1>
+            <p class="intro__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos autem fuga accusantium sunt ratione pariatur eius laborum exercitationem accusamus illum laudantium, similique dolor, suscipit iste! Mollitia iure temporibus nam eligendi!</p>
             <span class="intro__button">Sobre nós</span>
         </div>
-        <div class="section1">
-            <h2>Quem somos nós?</h2>
-            <span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, aut, quos consequatur nemo error deserunt iste, fugit natus ipsum enim voluptatibus dolorem ea ab sint accusamus quas? Facilis, maiores in.</p>
+        <div class="about-us">
+            <h2 class="about-us__title">Quem somos nós?</h2>
+            <span class="about-us__wrapper">
+                <p class="about-us__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, aut, quos consequatur nemo error deserunt iste, fugit natus ipsum enim voluptatibus dolorem ea ab sint accusamus quas? Facilis, maiores in.</p>
             </span>            
-        </div>
-        <section class="section2">
-            <div class="duvidas_questions">
-                <h2>Dúvidas frequentes</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor dolorem veritatis veniam fuga. Itaque error quae et magni maxime ab quibusdam enim, animi dicta. Illo odio eum ex quo at?</p>
-                <span>Entrar para próxima turma</span>
+        </div>        
+        <section class="faq">
+            <div class="faq__container">
+                <h2 class="faq__title">Dúvidas frequentes</h2>
+                <p class="faq__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor dolorem veritatis veniam fuga. Itaque error quae et magni maxime ab quibusdam enim, animi dicta. Illo odio eum ex quo at?</p>
+                <span class="faq__btn">Entrar para próxima turma</span>
             </div>
-            <div class="section3">
-                <span>
-                    <h3>Quanto custa o curso?</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, assumenda. Nulla vero accusamus officia laborum quis soluta deleniti culpa obcaecati dignissimos eos! Cupiditate quaerat minima magnam beatae, facilis modi rem!</p>
+            <div class="faq__item">
+                <span class="faq__question">
+                    <h3 class="faq__question-title">Quanto custa o curso?</h3>
+                    <p class="faq__question-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, assumenda. Nulla vero accusamus officia laborum quis soluta deleniti culpa obcaecati dignissimos eos! Cupiditate quaerat minima magnam beatae, facilis modi rem!</p>
                 </span>
-                <span>
-                    <h3>Quais matérias vou pagar?</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, assumenda. Nulla vero accusamus officia laborum quis soluta deleniti culpa obcaecati dignissimos eos! Cupiditate quaerat minima magnam beatae, facilis modi rem!</p>
+                <span class="faq__question">
+                    <h3 class="faq__question-title">Quais matérias vou pagar?</h3>
+                    <p class="faq__question-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, assumenda. Nulla vero accusamus officia laborum quis soluta deleniti culpa obcaecati dignissimos eos! Cupiditate quaerat minima magnam beatae, facilis modi rem!</p>
                 </span>
-                <span>
-                    <h3>Tenho direito à cancelamento?</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, assumenda. Nulla vero accusamus officia laborum quis soluta deleniti culpa obcaecati dignissimos eos! Cupiditate quaerat minima magnam beatae, facilis modi rem!</p>
+                <span class="faq__question">
+                    <h3 class="faq__question-title">Tenho direito à cancelamento?</h3>
+                    <p class="faq__question-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, assumenda. Nulla vero accusamus officia laborum quis soluta deleniti culpa obcaecati dignissimos eos! Cupiditate quaerat minima magnam beatae, facilis modi rem!</p>
                 </span>
-                <span>
-                    <h3>O acesso do curso é vitalício?</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, assumenda. Nulla vero accusamus officia laborum quis soluta deleniti culpa obcaecati dignissimos eos! Cupiditate quaerat minima magnam beatae, facilis modi rem!</p>
+                <span class="faq__question" >
+                    <h3 class="faq__question-title" >O acesso do curso é vitalício?</h3>
+                    <p class="faq__question-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, assumenda. Nulla vero accusamus officia laborum quis soluta deleniti culpa obcaecati dignissimos eos! Cupiditate quaerat minima magnam beatae, facilis modi rem!</p>
                 </span>
             </div>
         </section>
@@ -104,15 +104,15 @@
     <dialog id="modal__container">
         <div class="modal__content">
             <div class="modal__header">
-                <h3 class="modal-title">Cadastro</h3>
-                <button class="modal-close" id="close__modal"><abbr title="fechar">X</abbr></button>
+                <h3 class="modal__title">Cadastro</h3>
+                <button class="modal__close" id="close__modal"title="fechar">X</button>
             </div>
             <div class="modal__body">
-                <p class="modal-text">
+                <p class="modal__text">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                 </p>
                 <input type="email" name="email" placeholder="Digitar email">
-                <button class="modal-buttton" id="input__button">Entrar na lista para próxima turma</button>
+                <button class="modal__buttton" id="input__button">Entrar na lista para próxima turma</button>
             </div>
         </div>
     </dialog>

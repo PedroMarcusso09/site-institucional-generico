@@ -1,24 +1,27 @@
-function handleModal(){
-    const button = document.querySelector("#header__button");
-    const modal = document.querySelector('#modal__container')
+function handleModal() {
+    const headerButton = document.querySelector("#header__button");
+    const faqBtn = document.querySelector(".faq__btn");
+    const modal = document.querySelector('#modal__container');
 
-    button.addEventListener('click', () => {
-        
-        modal.showModal()
-        closeModal()
-        
-    })
+    headerButton.addEventListener('click', () => {
+        modal.showModal();
+        closeModal();
+    });
 
-    
+    faqBtn.addEventListener('click', () => {
+        modal.showModal();
+        closeModal();
+    });
+
+    function closeModal() {
+        const closeButton = document.querySelector('#close__modal');
+
+        closeButton.addEventListener('click', () => {
+            modal.close();
+        });
+    }
 }
 
-function closeModal(){
-    const button = document.querySelector('#close__modal')
-    const modal = document.querySelector('#modal__container')
+handleModal();
 
-    button.addEventListener('click', () => {
-        modal.close()
-    })
-}
-handleModal()
 

@@ -15,6 +15,7 @@ main {
     padding: 50px;
     border-bottom: 2px solid var(--brand-1);
     background-color: var(--grey-1);
+    z-index: 1;
 }
 
 .header__button {
@@ -27,7 +28,12 @@ main {
     cursor: pointer;
 }
 
-.container {
+.header__button:hover {
+    background-color: var(--grey-6);
+    color: var(--white);
+}
+
+.main-container {
     width: 100%;
 }
 
@@ -41,16 +47,16 @@ main {
     gap: 44px;
 }
 
-.intro h1 {
+.intro__title {
     font: var(--font-1-600);
     color: var(--grey-6);
 }
 
-.intro .highlight {
+.intro__title-highlight {
     color: var(--brand-1);
 }
 
-.intro p {
+.intro__description {
     font: var(--font-5-400);
     color: var(--grey-4)
 }
@@ -70,7 +76,13 @@ main {
     cursor: pointer;
 }
 
-.section1 {
+.intro__button:hover {
+    background-color: var(--brand-2);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.about-us {
     background-color: var(--grey-1) ;
     height: 248px;
     display: flex;
@@ -80,17 +92,17 @@ main {
     padding: 0px 50px;
 }
 
-.section1 h2 {
+.about-us__title {
     color: var(--grey-6);
     font: var(--font-3-600);
 }
 
-.section1 span {
+.about-us__wrapper {
     color: var(--grey-5);
     font: var(--font-5-400);
 }
 
-.section2 {
+.faq {
     background-color: var(--grey-2);
     height: 1250px;
     display: flex;
@@ -100,7 +112,7 @@ main {
     padding: 0px 50px;
 }
 
-.duvidas_questions {
+.faq__container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -112,24 +124,25 @@ main {
     padding: 20px 30px;
 }
 
-.duvidas_questions h2 {
+.faq__title {
     font: var(--font-2-600);
     color: var(--grey-6);
     text-align: center;
 }
 
-.duvidas_questions p {
+.faq__text {
     font: var(--font-6-400);
     color: var(--grey-4);
     width: 473px;
     height: 81px;
 }
 
-.duvidas_questions span {
+.faq__btn {
     background-color: var(--brand-1);
     border: 1px solid var(--brand-1);
     color: var(--grey-6);
     width: 241px;
+    min-width: 200px;
     height: 60px;
     display: flex;
     flex-direction: row;
@@ -137,18 +150,26 @@ main {
     align-items: center;
     padding: 0px 32px;
     gap: 10px;
+    margin-top: 10px;
 }
 
-.section3 {
+.faq__btn:hover {
+    background-color: var(--brand-2);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.faq__question{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 60px;
     position: relative;
+    margin-top: 40px;
 }
 
-.section3 h3 {
+.faq__question-title {
     font: var(--font-3-600);
     color: var(--grey-6);
     width: 250px;
@@ -159,7 +180,7 @@ main {
     padding: 0px;
 }
 
-.section3 p {
+.faq__question-text {
     font: var(--font-5-400);
     color: var(--grey-4); 
 }

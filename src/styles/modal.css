@@ -1,18 +1,15 @@
 #modal__container {
     width: 504px;
-    height: 397px;
-    padding: 0;
-}
+    padding: 0 ;}
   
 .modal__content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 504px;
-    height: 397px;
     background-color: var(--grey-2);
     border: 2px solid var(--brand-1);
     padding: 20px;
+    box-sizing: border-box;
 }
   
 .modal__header {
@@ -25,40 +22,40 @@
     align-self: stretch;
 }
   
-.modal-title {
+.modal__title {
     font: var(--font-5-600);
     color: var(--grey-6);
     margin-bottom: 20px;
 }  
 
-.modal-close {
-    border: none;
-    background-color: transparent;
+.modal__close {
+    background-color: var(--grey-3);
     color: var(--grey-6);
     font: var(--font-6-400);
     cursor: pointer;
 }
-  
-.modal-close:hover {
-    color: var(--brand-1);
-  }
-  
+    
+.modal__close:hover {
+    background-color: var(--grey-5);
+    color: var(--grey-1);
+}
+
 .modal__body {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
   
-.modal-text {
+.modal__text {
     font: var(--font-7-400);
     color: var(--grey-4);
 }
   
-.modal-text--highlight {
+.modal__text--highlight {
     color: var(--brand-1);
 }
   
-.modal-buttton {
+.modal__buttton {
     background-color: var(--brand-1);
     color: var(--grey-6);
     border: 1px solid var(--brand-1);
@@ -66,7 +63,13 @@
     font: var(--font-6-600);
     cursor: pointer;
 }
-  
+
+.modal__buttton:hover {
+    background-color: var(--brand-2); 
+    color: var(--grey-1); 
+
+}
+
 input {
     height: 40px;
     background-color: var(--grey-1);
